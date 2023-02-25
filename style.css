@@ -1,0 +1,180 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #1f2937;
+    padding-bottom: 150px;
+}
+.container{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+nav p{
+    font-size: 28px;
+    color: #F9Faf8;
+}
+nav ul{
+    display: flex;
+    gap: 35px;
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    
+}
+/*
+.space{
+    width: 50px;
+}
+*/
+.homeText{
+    flex: 1;
+}
+.homeText h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9Faf8;
+    line-height: 40px;
+    margin: 10px 0px 10px 0px;
+}
+
+.homeText p{
+    color: #E5E7Eb;
+    font-size: 18px;
+}
+
+.homeText button{
+    background-color: #3882f6;
+    border: none;
+    padding:10px 20px 10px 20px;
+    color: #F9Faf8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.homeImage{
+    flex: 1;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9Faf8;
+    
+}
+
+.information{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.information h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.fourBoxes{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+   flex-wrap: wrap;
+}
+.bluebox{
+    width: 150px;
+    height: 150px;
+    border:4px solid #3882f6;
+    border-radius: 10px;
+}
+.smallbox{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.smallbox p{
+    width: 150px;
+    font-size: 18px;
+    color: gray;
+}
+
+.quoteContainer{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.quote{
+    background-color: #E5E7Eb;
+    font-size:36px;
+    color: #1f2937;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.quotetext{
+    line-height: 40px;
+}
+.author{
+    font-size: 30px;
+    margin: 0;
+    text-align: end;
+}
+
+.callToAction{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.callToActionBox{
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0px 30px 0px;
+    color: #F9Faf8;
+}
+.callToActionBox span{
+    font-weight: bold;
+    font-size: 25px;
+}
+.callToActionBox button{
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #F9Faf8;
+    background-color: #3882f6;
+    color: #F9Faf8;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #1f2937;
+}
+footer p{
+    margin: 0;
+    padding:30px;
+    font-size: 18px;
+    color: #F9Faf8;
+    text-align: center;
+}
